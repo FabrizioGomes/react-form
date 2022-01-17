@@ -21,7 +21,8 @@ function DadosEntrega({ aoEnviar }) {
           setCep(event.target.value);
         }}
         id="cep"
-        label="cep"
+        name="cep"
+        label="CEP"
         type="number"
         variant="outlined"
         margin="normal"
@@ -31,8 +32,9 @@ function DadosEntrega({ aoEnviar }) {
         onChange={(event) => {
           setEndereco(event.target.value);
         }}
-        id="endereco"
-        label="Endereco"
+        id="endereço"
+        name="endereço"
+        label="Endereço"
         type="text"
         variant="outlined"
         margin="normal"
@@ -44,6 +46,7 @@ function DadosEntrega({ aoEnviar }) {
         setNumero(event.target.value);
       }}
         id="numero"
+        name="numero"
         label="Numero"
         type="number"
         variant="outlined"
@@ -55,6 +58,7 @@ function DadosEntrega({ aoEnviar }) {
         setEstado(event.target.value);
       }}
         id="estado"
+        name="estado"
         label="Estado"
         type="text"
         variant="outlined"
@@ -66,6 +70,7 @@ function DadosEntrega({ aoEnviar }) {
         setCidade(event.target.value);
       }}
         id="cidade"
+        name="cidade"
         label="Cidade"
         type="text"
         variant="outlined"
